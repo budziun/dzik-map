@@ -1,0 +1,3142 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-08-26T07:20:00Z",
+    "timestamp_areas_base": "2025-08-26T05:00:27Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1239099792,
+      "lat": 52.9832225,
+      "lon": 22.8876983,
+      "tags": {
+        "addr:city": "Łapy",
+        "addr:housenumber": "46E",
+        "addr:postcode": "18-100",
+        "addr:street": "Cmentarna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1239099881,
+      "lat": 52.9907937,
+      "lon": 22.875663,
+      "tags": {
+        "addr:city": "Łapy",
+        "addr:housenumber": "55",
+        "addr:postcode": "18-100",
+        "addr:street": "Główna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Fr 06:00-22:00; Sa 06:00-22:00",
+        "shop": "supermarket",
+        "toilets": "no",
+        "website": "https://www.arhelan.com.pl/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1239099897,
+      "lat": 52.9930806,
+      "lon": 22.8869656,
+      "tags": {
+        "addr:city": "Łapy",
+        "addr:housenumber": "26",
+        "addr:postcode": "18-100",
+        "addr:street": "Generała Władysława Sikorskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "website": "https://www.arhelan.com.pl/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1503719988,
+      "lat": 52.261506,
+      "lon": 20.957105,
+      "tags": {
+        "addr:city": "Warszawa",
+        "addr:housenumber": "74",
+        "addr:postcode": "01-728",
+        "addr:street": "Powązkowska",
+        "brand": "Arhelan",
+        "check_date": "2022-06-05",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1747337961,
+      "lat": 53.206898,
+      "lon": 23.3277398,
+      "tags": {
+        "addr:city": "Supraśl",
+        "addr:city:simc": "0923472",
+        "addr:housenumber": "20",
+        "addr:postcode": "16-030",
+        "addr:street": "Nowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1807701669,
+      "lat": 53.8352402,
+      "lon": 22.357243,
+      "tags": {
+        "addr:city": "Ełk",
+        "addr:housenumber": "5A",
+        "addr:postcode": "19-300",
+        "addr:street": "Karola Augusta Bahrkego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1868884086,
+      "lat": 53.4035268,
+      "lon": 22.8071399,
+      "tags": {
+        "addr:city": "Mońki",
+        "addr:housenumber": "21/3",
+        "addr:postcode": "19-101",
+        "addr:street": "Tysiąclecia",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1872658257,
+      "lat": 52.6927812,
+      "lon": 23.8325506,
+      "tags": {
+        "addr:city": "Białowieża",
+        "addr:housenumber": "3",
+        "addr:postcode": "17-230",
+        "addr:street": "Grudkowska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1977686408,
+      "lat": 52.7373797,
+      "lon": 23.5847574,
+      "tags": {
+        "name": "Arhelan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1985786926,
+      "lat": 52.733356,
+      "lon": 23.5913107,
+      "tags": {
+        "addr:city": "Hajnówka",
+        "addr:housenumber": "14",
+        "addr:postcode": "17-200",
+        "addr:street": "Armii Krajowej",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2283052946,
+      "lat": 53.4020574,
+      "lon": 23.4865442,
+      "tags": {
+        "addr:city": "Sokółka",
+        "addr:housenumber": "130",
+        "addr:postcode": "16-100",
+        "addr:street": "Białostocka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Fr 06:00-22:00, Su 08:00-20:00; Sa 06:00-22:00",
+        "phone": "85 711 52 68",
+        "shop": "supermarket",
+        "website": "https://www.arhelan.com.pl/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2905723974,
+      "lat": 53.130388,
+      "lon": 23.1838772,
+      "tags": {
+        "addr:city": "Białystok",
+        "addr:country": "PL",
+        "addr:housenumber": "10A",
+        "addr:postcode": "15-057",
+        "addr:street": "Bolesława Chrobrego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Fr 06:00-22:00, Sa 06:00-23:30, Su 08:00-22:00",
+        "operator": "Arhelan",
+        "shop": "supermarket",
+        "website": "https://www.arhelan.pl/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3021943623,
+      "lat": 53.2062235,
+      "lon": 23.2010319,
+      "tags": {
+        "addr:city": "Wasilków",
+        "addr:housenumber": "15",
+        "addr:postcode": "16-010",
+        "addr:street": "Żurawia",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3043566876,
+      "lat": 53.1240431,
+      "lon": 23.1513456,
+      "tags": {
+        "addr:city": "Białystok",
+        "addr:housenumber": "27",
+        "addr:postcode": "15-274",
+        "addr:street": "Jerzego Waszyngtona",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "contact:website": "https://arhelan.pl/",
+        "level": "0",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; PH off",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:diners_club": "yes",
+        "payment:jcb": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "shop": "supermarket",
+        "website": "https://arhelan.pl/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3060844732,
+      "lat": 52.7747671,
+      "lon": 23.1948771,
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:housenumber": "124",
+        "addr:postcode": "17-100",
+        "addr:street": "Adama Mickiewicza",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3078192797,
+      "lat": 52.7727268,
+      "lon": 23.1911315,
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:housenumber": "14",
+        "addr:postcode": "17-100",
+        "addr:street": "Kryniczna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3237819738,
+      "lat": 53.8103876,
+      "lon": 21.9497584,
+      "tags": {
+        "addr:city": "Orzysz",
+        "addr:housenumber": "2",
+        "addr:postcode": "12-250",
+        "addr:street": "Ratuszowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Jan 26,Apr 13,Apr 27,Jun 29,Aug 31,Dec 07,Dec 14,Dec 21 Su 08:00-20:00",
+        "shop": "supermarket",
+        "website": "https://arhelan.pl/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4157159302,
+      "lat": 52.6520752,
+      "lon": 23.0464337,
+      "tags": {
+        "addr:city": "Boćki",
+        "addr:housenumber": "18",
+        "addr:postcode": "11-111",
+        "addr:street": "Bielska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 00:00-23:59",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4294223889,
+      "lat": 52.8345463,
+      "lon": 23.7524165,
+      "tags": {
+        "addr:city": "Narewka",
+        "addr:housenumber": "31a",
+        "addr:postcode": "17-220",
+        "addr:street": "Hajnowska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Su 08:00-21:00, 22:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4315073054,
+      "lat": 52.3300794,
+      "lon": 23.0463585,
+      "tags": {
+        "addr:city": "Mielnik",
+        "addr:housenumber": "4",
+        "addr:postcode": "17-307",
+        "addr:street": "Strażacka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Fr 06:00-22:00; Su 08:00-20:00; Sa 06:00-23:30",
+        "parking": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4734566886,
+      "lat": 52.7458534,
+      "lon": 22.8388805,
+      "tags": {
+        "addr:city": "Brańsk",
+        "addr:housenumber": "6",
+        "addr:postcode": "17-120",
+        "addr:street": "Błonie",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.arhelan.com.pl/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4744052981,
+      "lat": 52.9936375,
+      "lon": 22.8907762,
+      "tags": {
+        "addr:city": "Łapy",
+        "addr:housenumber": "2",
+        "addr:postcode": "18-100",
+        "addr:street": "Podpułkownika Stanisława Nilskiego-Łapińskiego",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 08:00-20:00",
+        "shop": "supermarket",
+        "website": "https://www.arhelan.com.pl/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4836549242,
+      "lat": 52.7043894,
+      "lon": 23.332588,
+      "tags": {
+        "addr:city": "Orla",
+        "addr:housenumber": "2",
+        "addr:postcode": "17-106",
+        "addr:street": "Adama Mickiewicza",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5319268726,
+      "lat": 52.8707083,
+      "lon": 22.5442152,
+      "tags": {
+        "addr:city": "Szepietowo",
+        "addr:housenumber": "6c",
+        "addr:postcode": "18-210",
+        "addr:street": "Kolejowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-20:00",
+        "shop": "supermarket",
+        "website": "https://www.arhelan.com.pl/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5806547900,
+      "lat": 53.0143647,
+      "lon": 23.3365205,
+      "tags": {
+        "addr:city": "Zabłudów",
+        "addr:housenumber": "2",
+        "addr:postcode": "16-060",
+        "addr:street": "Muchawiecka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; PH closed",
+        "shop": "supermarket",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5810380919,
+      "lat": 52.6764019,
+      "lon": 22.5080407,
+      "tags": {
+        "addr:city": "Ciechanowiec",
+        "addr:housenumber": "23A",
+        "addr:postcode": "18-230",
+        "addr:street": "Wojska Polskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-20:00",
+        "payment:blik": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7108665293,
+      "lat": 53.1186792,
+      "lon": 23.0760999,
+      "tags": {
+        "addr:city": "Klepacze",
+        "addr:housenumber": "1A",
+        "addr:postcode": "16-635",
+        "addr:street": "Długa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8446434879,
+      "lat": 53.0977618,
+      "lon": 23.1330345,
+      "tags": {
+        "addr:city": "Białystok",
+        "addr:housenumber": "6 loka. U2",
+        "addr:postcode": "15-327",
+        "addr:street": "Feliksa Filipowicza",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8947027856,
+      "lat": 53.1132823,
+      "lon": 23.1273185,
+      "tags": {
+        "addr:city": "Białystok",
+        "addr:housenumber": "2D",
+        "addr:postcode": "15-399",
+        "addr:street": "Transportowa",
+        "name": "Arhelan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9162091736,
+      "lat": 52.7969513,
+      "lon": 22.3308377,
+      "tags": {
+        "addr:city": "Czyżew",
+        "addr:housenumber": "54a",
+        "addr:postcode": "18-220",
+        "addr:street": "Szkolna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket",
+        "website": "https://arhelan.pl/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9424826320,
+      "lat": 52.074505,
+      "lon": 23.6140586,
+      "tags": {
+        "addr:city": "Terespol",
+        "addr:housenumber": "16",
+        "addr:postcode": "21-555",
+        "addr:street": "Henryka Sienkiewicza",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9682900997,
+      "lat": 52.14774,
+      "lon": 22.67062,
+      "tags": {
+        "addr:city": "Olszanka",
+        "addr:city:simc": "0016700",
+        "addr:housenumber": "44F",
+        "addr:place": "Olszanka",
+        "addr:postcode": "08-207",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "olszanka.e-mapa.net"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10026258571,
+      "lat": 53.0694974,
+      "lon": 23.081354,
+      "tags": {
+        "addr:city": "Niewodnica Korycka",
+        "addr:housenumber": "3",
+        "addr:postcode": "18-106",
+        "addr:street": "Tadeusza Kościuszki",
+        "name": "Arhelan",
+        "operator": "Pruszyński",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10270074473,
+      "lat": 53.7299939,
+      "lon": 22.6850656,
+      "tags": {
+        "addr:city": "Rajgród",
+        "addr:housenumber": "2",
+        "addr:postcode": "19-206",
+        "addr:street": "Franciszka Zabielskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11045444580,
+      "lat": 52.9828156,
+      "lon": 22.8922532,
+      "tags": {
+        "addr:city": "Łapy",
+        "addr:housenumber": "25",
+        "addr:postcode": "18-100",
+        "addr:street": "Franciszka Żwirki i Stanisława Wigury",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.delikatesy.pl/sklepy/547009"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11045444581,
+      "lat": 52.9149086,
+      "lon": 23.5212974,
+      "tags": {
+        "addr:city": "Narew",
+        "addr:housenumber": "1",
+        "addr:postcode": "17-210",
+        "addr:street": "Bielska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.delikatesy.pl/sklepy/459200"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11045444585,
+      "lat": 53.6806622,
+      "lon": 23.0945717,
+      "tags": {
+        "addr:city": "Sztabin",
+        "addr:housenumber": "13",
+        "addr:postcode": "16-310",
+        "addr:street": "Tadeusza Kościuszki",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.delikatesy.pl/sklepy/459201"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11121934736,
+      "lat": 52.428784,
+      "lon": 22.8633093,
+      "tags": {
+        "addr:city": "Siemiatycze",
+        "addr:housenumber": "40",
+        "addr:postcode": "17-300",
+        "addr:street": "Plac Jana Pawła II",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11375975281,
+      "lat": 52.4249729,
+      "lon": 22.8617538,
+      "tags": {
+        "addr:city": "Siemiatycze",
+        "addr:housenumber": "14b",
+        "addr:postcode": "17-300",
+        "addr:street": "Pałacowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12307384586,
+      "lat": 53.6434098,
+      "lon": 22.464582,
+      "tags": {
+        "addr:city": "Grajewo",
+        "addr:housenumber": "48A",
+        "addr:postcode": "19-200",
+        "addr:street": "Koszarowa",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-20:00",
+        "shop": "convenience",
+        "website": "https://arhelan.pl/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12398673150,
+      "lat": 53.7385642,
+      "lon": 23.3975611,
+      "tags": {
+        "addr:city": "Lipsk",
+        "addr:housenumber": "38",
+        "addr:postcode": "16-315",
+        "addr:street": "Pusta",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "payment:blik": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12787533827,
+      "lat": 53.5671091,
+      "lon": 22.2861008,
+      "tags": {
+        "addr:city": "Szczuczyn",
+        "addr:housenumber": "5A",
+        "addr:postcode": "19-230",
+        "addr:street": "Henryka Sienkiewicza",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-20:00",
+        "payment:blik": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13072191539,
+      "lat": 53.4622376,
+      "lon": 23.2310718,
+      "tags": {
+        "addr:city": "Janów",
+        "addr:housenumber": "23",
+        "addr:postcode": "16-130",
+        "addr:street": "Białostocka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13097709363,
+      "lat": 52.7532044,
+      "lon": 23.1873008,
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:housenumber": "1",
+        "addr:postcode": "17-100",
+        "addr:street": "Koszarowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13097764224,
+      "lat": 52.9950464,
+      "lon": 22.7083709,
+      "tags": {
+        "addr:city": "Sokoły",
+        "addr:housenumber": "33c",
+        "addr:postcode": "18-218",
+        "addr:street": "Kolejowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13097764225,
+      "lat": 53.0688453,
+      "lon": 23.0799143,
+      "tags": {
+        "addr:city": "Niewodnica Korycka",
+        "addr:housenumber": "3",
+        "addr:postcode": "18-106",
+        "addr:street": "Tadeusza Kościuszki",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13097764226,
+      "lat": 53.16231,
+      "lon": 22.0794153,
+      "tags": {
+        "addr:city": "Łomża",
+        "addr:housenumber": "5",
+        "addr:postcode": "18-400",
+        "addr:street": "Księcia Janusza I",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13097820027,
+      "lat": 53.1495798,
+      "lon": 22.9874047,
+      "tags": {
+        "addr:city": "Choroszcz",
+        "addr:housenumber": "28",
+        "addr:postcode": "16-070",
+        "addr:street": "Henryka Sienkiewicza",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13097820028,
+      "lat": 53.7021163,
+      "lon": 22.4272786,
+      "tags": {
+        "addr:city": "Prostki",
+        "addr:housenumber": "29A",
+        "addr:postcode": "19-335",
+        "addr:street": "1 Maja",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 97985333,
+      "center": {
+        "lat": 52.1657036,
+        "lon": 22.2718953
+      },
+      "nodes": [
+        1133979647,
+        1133562132,
+        1133979705,
+        1133979713,
+        1133979708,
+        1133573829,
+        1133548379,
+        1133546925,
+        1133979647
+      ],
+      "tags": {
+        "addr:city": "Siedlce",
+        "addr:city:simc": "0975173",
+        "addr:housenumber": "13",
+        "addr:postcode": "08-110",
+        "addr:street": "Armii Krajowej",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:fireproof": "yes",
+        "building:levels": "1",
+        "building:type:pl": "Przyziemie budynku ognioodpornego",
+        "building:use:pl": "Handlowo-usługowy",
+        "ewmapa:funkcja": "h",
+        "ewmapa:kod_znakowy": "BZO",
+        "ewmapa:warstwa": "Przyziemie budynku ognioodpornego, podpory, podcienia z pomiaru w terenie",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source": "Powiat siedlecki, survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 145715372,
+      "center": {
+        "lat": 53.1415857,
+        "lon": 23.1691645
+      },
+      "nodes": [
+        5256717283,
+        5256717282,
+        5256717281,
+        6058400367,
+        5256717280,
+        5256717279,
+        5256717278,
+        5256717277,
+        5256717276,
+        5256717283
+      ],
+      "tags": {
+        "addr:city": "Białystok",
+        "addr:housenumber": "4",
+        "addr:postcode": "15-472",
+        "addr:street": "Jagienki",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "supermarket",
+        "name": "Arhelan",
+        "opening_hours": "24/7",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 174266901,
+      "center": {
+        "lat": 52.7344213,
+        "lon": 23.5927395
+      },
+      "nodes": [
+        4499144675,
+        4499144679,
+        4499144671,
+        4499144666,
+        4499144658,
+        4499144659,
+        4499144660,
+        4499144653,
+        4499144667,
+        4499144668,
+        4499144687,
+        4499144686,
+        4499144695,
+        4499144707,
+        4499144702,
+        4499144703,
+        4499144694,
+        4499144701,
+        4499144693,
+        4499144692,
+        4499144675
+      ],
+      "tags": {
+        "addr:city": "Hajnówka",
+        "addr:housenumber": "5",
+        "addr:postcode": "17-200",
+        "addr:street": "Józefa Piłsudskiego",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "mhajnowka.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 174547586,
+      "center": {
+        "lat": 52.7373905,
+        "lon": 23.5848521
+      },
+      "nodes": [
+        1852194731,
+        1852194551,
+        1852194546,
+        11345467561,
+        1852194667,
+        1852194731
+      ],
+      "tags": {
+        "addr:city": "Hajnówka",
+        "addr:housenumber": "5A",
+        "addr:postcode": "17-200",
+        "addr:street": "Białowieska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "mhajnowka.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 176536984,
+      "center": {
+        "lat": 53.4016855,
+        "lon": 22.8007177
+      },
+      "nodes": [
+        1870440372,
+        1870440256,
+        1870440265,
+        3050437117,
+        3050437122,
+        1870440420,
+        1870440372
+      ],
+      "tags": {
+        "addr:city": "Mońki",
+        "addr:housenumber": "2",
+        "addr:postcode": "19-100",
+        "addr:street": "Strażacka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "monki.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 177645945,
+      "center": {
+        "lat": 53.6524323,
+        "lon": 23.3519817
+      },
+      "nodes": [
+        1880644873,
+        1880644850,
+        1880644823,
+        1880644832,
+        1880644873
+      ],
+      "tags": {
+        "addr:city": "Dąbrowa Białostocka",
+        "addr:housenumber": "12",
+        "addr:postcode": "16-200",
+        "addr:street": "Tysiąclecia Państwa Polskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "phone": "+48 856 63 12 22",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181280709,
+      "center": {
+        "lat": 52.7464113,
+        "lon": 23.5867446
+      },
+      "nodes": [
+        4501580034,
+        4501579995,
+        4501579865,
+        4501579909,
+        4501580034
+      ],
+      "tags": {
+        "addr:city": "Hajnówka",
+        "addr:housenumber": "77A",
+        "addr:postcode": "17-200",
+        "addr:street": "Lipowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "mhajnowka.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183342877,
+      "center": {
+        "lat": 52.5721613,
+        "lon": 23.3271143
+      },
+      "nodes": [
+        4549700223,
+        4549700222,
+        4549700221,
+        4549700220,
+        4549700223
+      ],
+      "tags": {
+        "addr:city": "Kleszczele",
+        "addr:city:simc": "0031727",
+        "addr:housenumber": "4",
+        "addr:postcode": "17-250",
+        "addr:street": "Dobrowodzka",
+        "addr:street:sym_ul": "03956",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "kleszczele.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183490790,
+      "center": {
+        "lat": 52.7399171,
+        "lon": 23.5765771
+      },
+      "nodes": [
+        4502189107,
+        4502189074,
+        4502189073,
+        4502189106,
+        4502189105,
+        4502188955,
+        4502188956,
+        4502189038,
+        4502189039,
+        4502189108,
+        4502189107
+      ],
+      "tags": {
+        "addr:city": "Hajnówka",
+        "addr:city:simc": "0923035",
+        "addr:housenumber": "37",
+        "addr:postcode": "17-200",
+        "addr:street": "Nowowarszawska",
+        "addr:street:sym_ul": "14492",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "commercial",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "mhajnowka.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220083723,
+      "center": {
+        "lat": 52.7417742,
+        "lon": 22.8408521
+      },
+      "nodes": [
+        10269885982,
+        10269885981,
+        10269885980,
+        10269885973,
+        10269885978,
+        2292051405,
+        2292051421,
+        10269885977,
+        10269885982
+      ],
+      "tags": {
+        "addr:city": "Brańsk",
+        "addr:housenumber": "9",
+        "addr:postcode": "17-120",
+        "addr:street": "Kościelna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "shop": "supermarket",
+        "source": "www.geoportal.gov.pl",
+        "website": "https://www.arhelan.com.pl/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220974736,
+      "center": {
+        "lat": 52.7436473,
+        "lon": 22.8484896
+      },
+      "nodes": [
+        2300382636,
+        2300382585,
+        2300382562,
+        2300382558,
+        2300382527,
+        2300382533,
+        13039016558,
+        2300382502,
+        13039016557,
+        2300382606,
+        2300382628,
+        2300382518,
+        2300382636
+      ],
+      "tags": {
+        "addr:city": "Brańsk",
+        "addr:housenumber": "4",
+        "addr:postcode": "17-120",
+        "addr:street": "Bielska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:building": "BDOT",
+        "source:geometry": "EGiB"
+      }
+    },
+    {
+      "type": "way",
+      "id": 229878564,
+      "center": {
+        "lat": 53.1057148,
+        "lon": 23.1251515
+      },
+      "nodes": [
+        4219871209,
+        4219871215,
+        4219871212,
+        4219871222,
+        4219871230,
+        4219871232,
+        4219871227,
+        4219871218,
+        4219871223,
+        4219871213,
+        4219871207,
+        4219871203,
+        4219871199,
+        4219871198,
+        4219871194,
+        4219870978,
+        4219870974,
+        4219870949,
+        4219870948,
+        4219870943,
+        4219870937,
+        4219870926,
+        4219870924,
+        4219870940,
+        4219870944,
+        4219870957,
+        4219870942,
+        4219870938,
+        4219870946,
+        4219870956,
+        4219870953,
+        4219870969,
+        4219870972,
+        4219871191,
+        4219871192,
+        4219871196,
+        4219871209
+      ],
+      "tags": {
+        "addr:city": "Białystok",
+        "addr:housenumber": "14",
+        "addr:postcode": "15-349",
+        "addr:street": "Stanisława Dubois",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "supermarket",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00, Su[-1] 08:00-20:00; PH off",
+        "shop": "supermarket",
+        "website": "https://arhelan.com.pl/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 245272701,
+      "center": {
+        "lat": 53.8545433,
+        "lon": 23.0101064
+      },
+      "nodes": [
+        2524996507,
+        9944437195,
+        2524996504,
+        2524996490,
+        2524996482,
+        2524996489,
+        2524996507
+      ],
+      "tags": {
+        "addr:city": "Augustów",
+        "addr:city:simc": "0977539",
+        "addr:housenumber": "10",
+        "addr:postcode": "16-300",
+        "addr:street": "Tytoniowa",
+        "addr:street:sym_ul": "23283",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 09:00-19:00",
+        "shop": "supermarket",
+        "source:addr": "maugustow.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 249003131,
+      "center": {
+        "lat": 53.6955867,
+        "lon": 22.4377078
+      },
+      "nodes": [
+        2557028495,
+        2557028490,
+        2557028482,
+        2557028487,
+        2557028495
+      ],
+      "tags": {
+        "addr:city": "Prostki",
+        "addr:housenumber": "29A",
+        "addr:postcode": "19-335",
+        "addr:street": "1 Maja",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 249466806,
+      "center": {
+        "lat": 52.948725,
+        "lon": 22.9561681
+      },
+      "nodes": [
+        2560629655,
+        2560629653,
+        2560629654,
+        2560629650,
+        2560629652,
+        2560629657,
+        2560629655
+      ],
+      "tags": {
+        "addr:city": "Suraż",
+        "addr:housenumber": "2",
+        "addr:postcode": "18-105",
+        "addr:street": "Bielska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "roof:shape": "gabled",
+        "shop": "supermarket",
+        "source:addr": "suraz.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 253345923,
+      "center": {
+        "lat": 53.9196063,
+        "lon": 22.1758984
+      },
+      "nodes": [
+        2592826287,
+        2592826241,
+        2592826121,
+        2592826303,
+        2592826326,
+        2592826264,
+        2592826287
+      ],
+      "tags": {
+        "addr:city": "Stare Juchy",
+        "addr:housenumber": "4",
+        "addr:postcode": "19-330",
+        "addr:street": "Ełcka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 263420415,
+      "center": {
+        "lat": 53.017161,
+        "lon": 23.3303152
+      },
+      "nodes": [
+        2690308628,
+        2690308624,
+        11881884620,
+        11881884619,
+        2690308593,
+        6151389415,
+        6151389413,
+        6151389412,
+        6151389414,
+        2690308617,
+        2690308628
+      ],
+      "tags": {
+        "addr:city": "Zabłudów",
+        "addr:housenumber": "6/1",
+        "addr:postcode": "16-060",
+        "addr:street": "Świętego Rocha",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "supermarket",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket",
+        "source:addr": "EMUiA (zabludow.e-mapa.net)",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 272154250,
+      "center": {
+        "lat": 52.7584223,
+        "lon": 23.2129204
+      },
+      "nodes": [
+        4657905179,
+        4657905178,
+        4657905177,
+        4657905176,
+        4657905175,
+        4657905174,
+        4657905173,
+        4657905172,
+        4657905171,
+        4657905179
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:city:simc": "0922685",
+        "addr:housenumber": "10",
+        "addr:postcode": "17-100",
+        "addr:street": "Białowieska",
+        "addr:street:sym_ul": "01189",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 274292450,
+      "center": {
+        "lat": 52.7099097,
+        "lon": 23.3252746
+      },
+      "nodes": [
+        4624334543,
+        4624334542,
+        4624334545,
+        4624334541,
+        4624334543
+      ],
+      "tags": {
+        "addr:city": "Orla",
+        "addr:housenumber": "1A",
+        "addr:postcode": "17-106",
+        "addr:street": "Sienkiewicza",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 274298846,
+      "center": {
+        "lat": 52.9979062,
+        "lon": 22.7118378
+      },
+      "nodes": [
+        2790601843,
+        2790601831,
+        2790601833,
+        2790601848,
+        2790601843
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Jan 26,Apr 13,Apr 27,Jun 29,Aug 31,Dec 07,Dec 14,Dec 21 Su 08:00-20:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 275834145,
+      "center": {
+        "lat": 52.5652922,
+        "lon": 22.9129825
+      },
+      "nodes": [
+        4608072849,
+        4608072848,
+        4608072847,
+        4608072846,
+        4608072849
+      ],
+      "tags": {
+        "addr:city": "Dziadkowice",
+        "addr:city:simc": "0028234",
+        "addr:housenumber": "56",
+        "addr:place": "Dziadkowice",
+        "addr:postcode": "17-306",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "dziadkowice.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 278666127,
+      "center": {
+        "lat": 52.1775685,
+        "lon": 22.0778838
+      },
+      "nodes": [
+        2829959426,
+        2829959423,
+        8804436910,
+        8804436909,
+        8804436908,
+        8804436907,
+        2829959424,
+        2829959428,
+        2829959426
+      ],
+      "tags": {
+        "addr:city": "Kotuń",
+        "addr:city:simc": "0676690",
+        "addr:housenumber": "35",
+        "addr:postcode": "08-130",
+        "addr:street": "Kolejowa",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "convenience",
+        "source:addr": "gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290574603,
+      "center": {
+        "lat": 53.1587284,
+        "lon": 22.0817659
+      },
+      "nodes": [
+        2940895272,
+        2940895273,
+        2940895278,
+        2940895281,
+        2940895276,
+        2940895277,
+        2940895274,
+        2940895267,
+        2940895266,
+        2940895258,
+        2940895252,
+        2940895250,
+        2940895238,
+        2940895233,
+        2940895262,
+        2940895261,
+        2940895268,
+        2940895269,
+        2940895272
+      ],
+      "tags": {
+        "addr:city": "Łomża",
+        "addr:city:simc": "0957241",
+        "addr:housenumber": "12A",
+        "addr:postcode": "18-400",
+        "addr:street": "Kazańska",
+        "addr:street:sym_ul": "08243",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "mlomza.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 290968607,
+      "center": {
+        "lat": 52.205498,
+        "lon": 23.0834476
+      },
+      "nodes": [
+        4529964218,
+        9133231699,
+        4529964217,
+        4529964216,
+        4529964215,
+        9133231698,
+        9133231697,
+        4529964218
+      ],
+      "tags": {
+        "addr:city": "Konstantynów",
+        "addr:housenumber": "1",
+        "addr:postcode": "21-543",
+        "addr:street": "Marszałka Józefa Piłsudskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 09:00-18:00; ",
+        "phone": "+48 691 525 967",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 292796901,
+      "center": {
+        "lat": 53.4103597,
+        "lon": 21.9281773
+      },
+      "nodes": [
+        2963338540,
+        2963338541,
+        2963338542,
+        2963338547,
+        2963338544,
+        2963338543,
+        2963338540
+      ],
+      "tags": {
+        "addr:city": "Kolno",
+        "addr:city:simc": "0957420",
+        "addr:housenumber": "51",
+        "addr:postcode": "18-500",
+        "addr:street": "Wojska Polskiego",
+        "addr:street:sym_ul": "24628",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "mkolno.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 294869780,
+      "center": {
+        "lat": 52.857054,
+        "lon": 22.710026
+      },
+      "nodes": [
+        2984919397,
+        2984919391,
+        2984919394,
+        2984919385,
+        2984919387,
+        2984919383,
+        2984919376,
+        2984919380,
+        2984919379,
+        2984919388,
+        2984919397
+      ],
+      "tags": {
+        "addr:city": "Nowe Piekuty",
+        "addr:city:simc": "0402299",
+        "addr:housenumber": "23",
+        "addr:postcode": "18-212",
+        "addr:street": "Główna",
+        "addr:street:sym_ul": "05635",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 301637690,
+      "center": {
+        "lat": 53.4914109,
+        "lon": 22.7297776
+      },
+      "nodes": [
+        3057167529,
+        3057167530,
+        3057167527,
+        3057167526,
+        3057167523,
+        3057167522,
+        4326162227,
+        3057167525,
+        4326162229,
+        4326283165,
+        3057167524,
+        3057167529
+      ],
+      "tags": {
+        "addr:city": "Goniądz",
+        "addr:city:simc": "0957360",
+        "addr:housenumber": "1",
+        "addr:postcode": "19-110",
+        "addr:street": "Rybacka",
+        "addr:street:sym_ul": "19142",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "operator": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "goniadz.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 301654129,
+      "center": {
+        "lat": 52.7695454,
+        "lon": 23.1965558
+      },
+      "nodes": [
+        2788368344,
+        3057385659,
+        3057385660,
+        3057385658,
+        2788368340,
+        2788368344
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:city:simc": "0922685",
+        "addr:housenumber": "11",
+        "addr:postcode": "17-100",
+        "addr:street": "Jagiellońska",
+        "addr:street:sym_ul": "07029",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 301917310,
+      "center": {
+        "lat": 52.7749189,
+        "lon": 23.1850713
+      },
+      "nodes": [
+        3060821333,
+        3060821334,
+        3060809431,
+        3060809427,
+        3060809428,
+        3060821333
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:city:simc": "0922685",
+        "addr:housenumber": "43",
+        "addr:postcode": "17-100",
+        "addr:street": "Aleja Józefa Piłsudskiego",
+        "addr:street:sym_ul": "16259",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 301920682,
+      "center": {
+        "lat": 52.7621425,
+        "lon": 23.1727521
+      },
+      "nodes": [
+        4657802422,
+        4657802421,
+        4657802420,
+        4657802419,
+        4657802418,
+        4657802417,
+        4657802416,
+        4657802415,
+        4657802422
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:city:simc": "0922685",
+        "addr:housenumber": "90",
+        "addr:postcode": "17-100",
+        "addr:street": "Brańska",
+        "addr:street:sym_ul": "02044",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 301982483,
+      "center": {
+        "lat": 52.7541492,
+        "lon": 23.1850473
+      },
+      "nodes": [
+        4657815199,
+        4657815198,
+        4657815197,
+        4657815196,
+        4657815195,
+        4657815194,
+        4657815193,
+        4657815192,
+        4657815199
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:city:simc": "0922685",
+        "addr:housenumber": "17",
+        "addr:postcode": "17-100",
+        "addr:street": "Obozowa",
+        "addr:street:sym_ul": "14599",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "convenience",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 301989228,
+      "center": {
+        "lat": 52.7627226,
+        "lon": 23.1851296
+      },
+      "nodes": [
+        3061900730,
+        3061901136,
+        3061900728,
+        3061900723,
+        3061900730
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:city:simc": "0922685",
+        "addr:housenumber": "3",
+        "addr:postcode": "17-100",
+        "addr:street": "Wojska Polskiego",
+        "addr:street:sym_ul": "24628",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 304400122,
+      "center": {
+        "lat": 53.0935116,
+        "lon": 23.6538131
+      },
+      "nodes": [
+        3089344243,
+        3089344219,
+        3089344218,
+        3089344202,
+        3089344203,
+        3089344192,
+        3089344196,
+        11302562127,
+        3089344245,
+        3089344243
+      ],
+      "tags": {
+        "addr:city": "Gródek",
+        "addr:housenumber": "10",
+        "addr:postcode": "16-040",
+        "addr:street": "Polna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "grodek.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 304494016,
+      "center": {
+        "lat": 52.7796632,
+        "lon": 23.2000467
+      },
+      "nodes": [
+        3090405222,
+        3090405213,
+        3090405212,
+        3090405211,
+        3090405209,
+        3090405210,
+        3090405208,
+        3097056834,
+        3090405214,
+        3097056839,
+        3090405222
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:city:simc": "0922685",
+        "addr:housenumber": "178A",
+        "addr:postcode": "17-100",
+        "addr:street": "Adama Mickiewicza",
+        "addr:street:sym_ul": "12740",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "emuia.gugik.gov.pl",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 305124427,
+      "center": {
+        "lat": 52.7732524,
+        "lon": 23.1985595
+      },
+      "nodes": [
+        2788387700,
+        3097049743,
+        3097049745,
+        3097049747,
+        2788387702,
+        2788387700
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:housenumber": "11B",
+        "addr:postcode": "17-100",
+        "addr:street": "Ogrodowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 306578521,
+      "center": {
+        "lat": 51.4942018,
+        "lon": 22.8539883
+      },
+      "nodes": [
+        3115419930,
+        3115418627,
+        4406747498,
+        10676098257,
+        10676098256,
+        10676098255,
+        10676098254,
+        10676098253,
+        10676098252,
+        10676098251,
+        10676098250,
+        10676098249,
+        3115418628,
+        10676098248,
+        3115419929,
+        3115419930
+      ],
+      "tags": {
+        "addr:city": "Ostrów Lubelski",
+        "addr:housenumber": "10",
+        "addr:postcode": "21-110",
+        "addr:street": "Czerwonego Krzyża",
+        "building": "retail",
+        "building:levels": "2",
+        "historic": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319028812,
+      "center": {
+        "lat": 53.5779431,
+        "lon": 23.1135393
+      },
+      "nodes": [
+        3254426163,
+        3254426162,
+        3254425955,
+        3254425957,
+        3254426163
+      ],
+      "tags": {
+        "addr:city": "Suchowola",
+        "addr:housenumber": "38",
+        "addr:postcode": "16-150",
+        "addr:street": "3 Maja",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Sa 08:00-20:00",
+        "payment:blik": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 367417040,
+      "center": {
+        "lat": 53.1987775,
+        "lon": 22.0986813
+      },
+      "nodes": [
+        4765484863,
+        4765484851,
+        4765484862,
+        4765484861,
+        4765484860,
+        4765484850,
+        4765484863
+      ],
+      "tags": {
+        "addr:city": "Piątnica Poduchowna",
+        "addr:city:simc": "0403962",
+        "addr:housenumber": "51",
+        "addr:postcode": "18-421",
+        "addr:street": "Stawiskowska",
+        "addr:street:sym_ul": "21093",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "piatnica.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 390625828,
+      "center": {
+        "lat": 52.4665942,
+        "lon": 23.0803004
+      },
+      "nodes": [
+        3937897783,
+        3937897803,
+        3937897797,
+        3937897796,
+        3937897795,
+        3937897775,
+        3937897783
+      ],
+      "tags": {
+        "addr:city": "Nurzec-Stacja",
+        "addr:housenumber": "36",
+        "addr:postcode": "17-330",
+        "addr:street": "Żerczycka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 406325337,
+      "center": {
+        "lat": 52.6909967,
+        "lon": 22.4985411
+      },
+      "nodes": [
+        4084100923,
+        4084100907,
+        4084100882,
+        4084100903,
+        4084100923
+      ],
+      "tags": {
+        "addr:city": "Ciechanowiec",
+        "addr:housenumber": "57B",
+        "addr:postcode": "18-230",
+        "addr:street": "Kuczyńska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-20:00",
+        "payment:blik": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 406325732,
+      "center": {
+        "lat": 52.6772829,
+        "lon": 22.5071369
+      },
+      "nodes": [
+        4084097327,
+        4084097322,
+        4084097307,
+        4084097304,
+        4084097301,
+        4084097303,
+        4084097308,
+        4084097312,
+        4084097318,
+        4084097327
+      ],
+      "tags": {
+        "addr:city": "Ciechanowiec",
+        "addr:housenumber": "23a",
+        "addr:postcode": "18-230",
+        "addr:street": "Wojska Polskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 424992543,
+      "center": {
+        "lat": 53.5765706,
+        "lon": 23.1156822
+      },
+      "nodes": [
+        4243445388,
+        4243445387,
+        4243445511,
+        4243445513,
+        4243445388
+      ],
+      "tags": {
+        "addr:city": "Suchowola",
+        "addr:city:simc": "0041312",
+        "addr:housenumber": "18",
+        "addr:postcode": "16-150",
+        "addr:street": "3 Maja",
+        "addr:street:sym_ul": "11937",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "suchowola.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 426104408,
+      "center": {
+        "lat": 52.6924958,
+        "lon": 22.0587896
+      },
+      "nodes": [
+        6072828321,
+        6072828320,
+        6072828319,
+        6072828318,
+        6072828317,
+        6072828316,
+        6072828315,
+        6072828314,
+        6072828313,
+        6072828312,
+        6072828321
+      ],
+      "tags": {
+        "addr:city": "Małkinia Górna",
+        "addr:housenumber": "16A",
+        "addr:postcode": "07-320",
+        "addr:street": "Leśna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 453424760,
+      "center": {
+        "lat": 52.7225864,
+        "lon": 23.574299
+      },
+      "nodes": [
+        4501614144,
+        12443836821,
+        12443836822,
+        12443836824,
+        4501614123,
+        12443836825,
+        12443836828,
+        4501614136,
+        4501614135,
+        4501614143,
+        12443836819,
+        12443836818,
+        4501614144
+      ],
+      "tags": {
+        "addr:city": "Hajnówka",
+        "addr:housenumber": "116A",
+        "addr:postcode": "17-200",
+        "addr:street": "Warszawska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "official_name": "Delikatesy Centrum Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 459011103,
+      "center": {
+        "lat": 52.9133745,
+        "lon": 23.5194775
+      },
+      "nodes": [
+        4549326618,
+        4549326617,
+        4549326616,
+        4549326615,
+        4549326618
+      ],
+      "tags": {
+        "addr:city": "Narew",
+        "addr:housenumber": "2",
+        "addr:postcode": "17-210",
+        "addr:street": "Topolowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 459012336,
+      "center": {
+        "lat": 52.9038713,
+        "lon": 23.5352148
+      },
+      "nodes": [
+        4549343465,
+        4549343464,
+        4549343463,
+        10076965970,
+        10076965971,
+        4549343462,
+        4749066596,
+        4749066595,
+        4549343465
+      ],
+      "tags": {
+        "addr:city": "Narew",
+        "addr:housenumber": "16",
+        "addr:postcode": "17-210",
+        "addr:street": "Białowieska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "supermarket",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "shop": "supermarket",
+        "source:addr": "narew.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 467814231,
+      "center": {
+        "lat": 52.7249593,
+        "lon": 22.7283271
+      },
+      "nodes": [
+        4624173367,
+        4624173366,
+        4624173365,
+        4624173364,
+        4624173367
+      ],
+      "tags": {
+        "addr:city": "Rudka",
+        "addr:housenumber": "10",
+        "addr:postcode": "17-123",
+        "addr:street": "Brańska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 477578939,
+      "center": {
+        "lat": 53.0374001,
+        "lon": 23.6013375
+      },
+      "nodes": [
+        4709031776,
+        4709031775,
+        4709031774,
+        4709031773,
+        4709031765,
+        4709031776
+      ],
+      "tags": {
+        "addr:city": "Michałowo",
+        "addr:housenumber": "15",
+        "addr:postcode": "16-050",
+        "addr:street": "Plac 11 Listopada",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "supermarket",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 577948916,
+      "center": {
+        "lat": 52.5145007,
+        "lon": 23.3523008
+      },
+      "nodes": [
+        5539316148,
+        11526070701,
+        5539316149,
+        5539316150,
+        5539316151,
+        5539316152,
+        5539316153,
+        5539316154,
+        7740093199,
+        5539316155,
+        5539316148
+      ],
+      "tags": {
+        "addr:city": "Czeremcha",
+        "addr:city:simc": "0025810",
+        "addr:housenumber": "86g",
+        "addr:postcode": "17-240",
+        "addr:street": "1 Maja",
+        "addr:street:sym_ul": "11926",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-20:00;",
+        "operator": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "czeremcha.e-mapa.net",
+        "website": "https://arhelan.pl/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 700408620,
+      "center": {
+        "lat": 53.0984907,
+        "lon": 23.2279529
+      },
+      "nodes": [
+        6577503947,
+        6577503946,
+        6577503945,
+        6577503943,
+        6577503944,
+        6577503947
+      ],
+      "tags": {
+        "addr:city": "Białystok",
+        "addr:city:simc": "0922410",
+        "addr:housenumber": "48",
+        "addr:postcode": "15-585",
+        "addr:street": "Zabłudowska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "supermarket",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-21:30; Su[-1] 08:00-20:00; PH off",
+        "shop": "supermarket",
+        "source:addr": "gugik.gov.pl",
+        "website": "https://arhelan.pl/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 741337665,
+      "center": {
+        "lat": 52.7524171,
+        "lon": 23.17412
+      },
+      "nodes": [
+        6940177130,
+        6940177129,
+        6940177128,
+        6940177127,
+        6940177130
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:housenumber": "23",
+        "addr:postcode": "17-100",
+        "addr:street": "Adama Asnyka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 788186123,
+      "center": {
+        "lat": 52.2094195,
+        "lon": 22.5201397
+      },
+      "nodes": [
+        7369169799,
+        7369169798,
+        7369169797,
+        7369169796,
+        8559528959,
+        7369169795,
+        7369169794,
+        7369169793,
+        8559528957,
+        8559528958,
+        7369169799
+      ],
+      "tags": {
+        "addr:city": "Mordy",
+        "addr:housenumber": "14",
+        "addr:postcode": "08-140",
+        "addr:street": "Jana Kilińskiego",
+        "addr:street:sym_ul": "08431",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "mordy.e-mapa.net"
+      }
+    },
+    {
+      "type": "way",
+      "id": 810041421,
+      "center": {
+        "lat": 52.1723121,
+        "lon": 22.2389424
+      },
+      "nodes": [
+        7573263206,
+        7573263205,
+        7573263204,
+        7573263203,
+        7573263206
+      ],
+      "tags": {
+        "addr:city": "Siedlce",
+        "addr:housenumber": "41",
+        "addr:postcode": "08-110",
+        "addr:street": "Feliksa Hłasko",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source": "www.geoportal.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 829430313,
+      "center": {
+        "lat": 52.151269,
+        "lon": 22.2867617
+      },
+      "nodes": [
+        7741828446,
+        7741828443,
+        7741828442,
+        7741828441,
+        10223248636,
+        7741828440,
+        7741828444,
+        7741828445,
+        7741828446
+      ],
+      "tags": {
+        "addr:city": "Siedlce",
+        "addr:housenumber": "11",
+        "addr:postcode": "08-110",
+        "addr:street": "Łukowska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 837639219,
+      "center": {
+        "lat": 52.2218952,
+        "lon": 21.3519442
+      },
+      "nodes": [
+        7817940379,
+        7817940378,
+        7817940377,
+        7817940376,
+        7817940375,
+        7817940374,
+        7817940373,
+        7817940372,
+        7817940371,
+        7817940370,
+        7817940369,
+        7817940368,
+        7817940367,
+        7817940366,
+        7817940365,
+        7817940364,
+        7817940379
+      ],
+      "tags": {
+        "addr:city": "Hipolitów",
+        "addr:housenumber": "18",
+        "addr:postcode": "05-074",
+        "addr:street": "Kolejowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source": "UG Halinów"
+      }
+    },
+    {
+      "type": "way",
+      "id": 864108925,
+      "center": {
+        "lat": 52.1655482,
+        "lon": 22.3324098
+      },
+      "nodes": [
+        8050023122,
+        8050023123,
+        8050023124,
+        8050023126,
+        8050023127,
+        8050023128,
+        8050023129,
+        11083677778,
+        8050023130,
+        8050023131,
+        8050023132,
+        8050023122
+      ],
+      "tags": {
+        "addr:city": "Stok Lacki-Folwark",
+        "addr:housenumber": "16A",
+        "addr:postcode": "08-110",
+        "addr:street": "Siedlecka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 891479412,
+      "center": {
+        "lat": 52.3028357,
+        "lon": 22.8219194
+      },
+      "nodes": [
+        8286095651,
+        8286095650,
+        8286095649,
+        8286095648,
+        8286095651
+      ],
+      "tags": {
+        "addr:city": "Platerów",
+        "addr:housenumber": "15",
+        "addr:postcode": "08-210",
+        "addr:street": "3 Maja",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source": "www.geoportal.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 932971343,
+      "center": {
+        "lat": 53.0154702,
+        "lon": 23.1386562
+      },
+      "nodes": [
+        8648294785,
+        8648294784,
+        8648294783,
+        8648294782,
+        8648294781,
+        8648294780,
+        8648294779,
+        8648294778,
+        8648294777,
+        8648294776,
+        8648294775,
+        8648294774,
+        8648294785
+      ],
+      "tags": {
+        "addr:city": "Juchnowiec Górny",
+        "addr:city:simc": "0989360",
+        "addr:housenumber": "1A",
+        "addr:postcode": "16-061",
+        "addr:street": "Białostocka",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037374387,
+      "center": {
+        "lat": 53.3143508,
+        "lon": 22.9184031
+      },
+      "nodes": [
+        9556330315,
+        9556330314,
+        9556330313,
+        9556330312,
+        9556330315
+      ],
+      "tags": {
+        "addr:city": "Knyszyn",
+        "addr:housenumber": "2c",
+        "addr:postcode": "19-120",
+        "addr:street": "Jagiellońska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064367546,
+      "center": {
+        "lat": 52.1455617,
+        "lon": 21.2202212
+      },
+      "nodes": [
+        9775255519,
+        9775255976,
+        9775255928,
+        9775255552,
+        9775255519
+      ],
+      "tags": {
+        "addr:city": "Józefów",
+        "addr:city:simc": "0920404",
+        "addr:housenumber": "1c",
+        "addr:postcode": "05-410",
+        "addr:street": "Zawiszy Czarnego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source": "www.geoportal.gov.pl",
+        "source:addr": "gugik.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1066054453,
+      "center": {
+        "lat": 53.3810858,
+        "lon": 22.1582798
+      },
+      "nodes": [
+        9789864336,
+        9789864337,
+        9789864338,
+        9789864339,
+        9789864336
+      ],
+      "tags": {
+        "addr:city": "Stawiski",
+        "addr:housenumber": "7",
+        "addr:postcode": "18-520",
+        "addr:street": "Polowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "payment:blik": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "website": "https://arhelan.pl/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1103592549,
+      "center": {
+        "lat": 52.7834801,
+        "lon": 23.2089087
+      },
+      "nodes": [
+        10098644929,
+        10098644930,
+        10098644931,
+        10098644932,
+        10098644929
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:housenumber": "200B",
+        "addr:postcode": "17-100",
+        "addr:street": "Adama Mickiewicza",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1103637876,
+      "center": {
+        "lat": 52.7662806,
+        "lon": 23.2054825
+      },
+      "nodes": [
+        10099114562,
+        10099114563,
+        10099114564,
+        10099114565,
+        10099114562
+      ],
+      "tags": {
+        "addr:city": "Bielsk Podlaski",
+        "addr:housenumber": "27F",
+        "addr:postcode": "17-100",
+        "addr:street": "Chmielna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126986653,
+      "center": {
+        "lat": 52.7412781,
+        "lon": 22.8342162
+      },
+      "nodes": [
+        10305088618,
+        10305088617,
+        10305088616,
+        10305088615,
+        10305088614,
+        10305088613,
+        10305088612,
+        10305088611,
+        10305088610,
+        10305088609,
+        10305088608,
+        10305088607,
+        10305088606,
+        10305088605,
+        10305088604,
+        10305088603,
+        10305088602,
+        10305088601,
+        10305088600,
+        10305088618
+      ],
+      "tags": {
+        "addr:city": "Brańsk",
+        "addr:housenumber": "2",
+        "addr:postcode": "17-120",
+        "addr:street": "Binduga",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00,Su 08:00-20:00; PH off",
+        "shop": "supermarket",
+        "source": "www.geoportal.gov.pl",
+        "source:addr": "mbransk.e-mapa.net",
+        "website": "https://arhelan.pl/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1147177448,
+      "center": {
+        "lat": 53.7671359,
+        "lon": 22.3335744
+      },
+      "nodes": [
+        10674665152,
+        10674665153,
+        10674665154,
+        10674665155,
+        10674665152
+      ],
+      "tags": {
+        "addr:city": "Nowa Wieś Ełcka",
+        "addr:city:simc": "0756577",
+        "addr:housenumber": "1A",
+        "addr:postcode": "19-321",
+        "addr:street": "Nowowiejska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "operator": "Arhelan",
+        "shop": "supermarket",
+        "source:addr": "gugik.gov.pl",
+        "website": "https://www.delikatesy.pl/sklepy/530606"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1156548169,
+      "center": {
+        "lat": 52.6977827,
+        "lon": 21.8482072
+      },
+      "nodes": [
+        10755453687,
+        10755453688,
+        10755453689,
+        10755453690,
+        10755453691,
+        10755469969,
+        10755453692,
+        10755453693,
+        10755453687
+      ],
+      "tags": {
+        "addr:city": "Brok",
+        "addr:housenumber": "34",
+        "addr:postcode": "07-306",
+        "addr:street": "Jarosława Dąbrowskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "shop": "supermarket",
+        "website": "https://www.delikatesy.pl/sklepy/550120"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190419412,
+      "center": {
+        "lat": 53.1258062,
+        "lon": 23.268244
+      },
+      "nodes": [
+        11053277435,
+        11053277434,
+        11053277433,
+        11053277432,
+        11053277431,
+        11053277430,
+        11053277435
+      ],
+      "tags": {
+        "addr:city": "Grabówka",
+        "addr:housenumber": "2",
+        "addr:postcode": "16-030",
+        "addr:street": "Jeżynowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source": "www.geoportal.gov.pl"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1214216726,
+      "center": {
+        "lat": 52.7278746,
+        "lon": 23.5904997
+      },
+      "nodes": [
+        11250046721,
+        11250046722,
+        12443835978,
+        12443835986,
+        11250046723,
+        11250046724,
+        11250046721
+      ],
+      "tags": {
+        "addr:city": "Hajnówka",
+        "addr:housenumber": "52",
+        "addr:postcode": "17-200",
+        "addr:street": "Józefa Piłsudskiego",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "operator": "Arhelan",
+        "shop": "supermarket",
+        "source:building": "BDOT"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1246056928,
+      "center": {
+        "lat": 53.1512177,
+        "lon": 21.8141788
+      },
+      "nodes": [
+        11584284631,
+        11584284632,
+        11584284633,
+        11584284634,
+        11584284631
+      ],
+      "tags": {
+        "addr:city": "Miastkowo",
+        "addr:housenumber": "2",
+        "addr:postcode": "18-413",
+        "addr:street": "Czartoryjska",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:building": "BDOT"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1246216222,
+      "center": {
+        "lat": 53.392397,
+        "lon": 23.034748
+      },
+      "nodes": [
+        11586003486,
+        11586003487,
+        11586003488,
+        11586003489,
+        11586003486
+      ],
+      "tags": {
+        "addr:city": "Jasionówka",
+        "addr:housenumber": "1",
+        "addr:postcode": "19-122",
+        "addr:street": "Lipowa",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Arhelan",
+        "shop": "supermarket",
+        "source:building": "BDOT"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262338203,
+      "center": {
+        "lat": 53.2617761,
+        "lon": 23.7671913
+      },
+      "nodes": [
+        11728826847,
+        11728826848,
+        11728826849,
+        11728826850,
+        11728826847
+      ],
+      "tags": {
+        "addr:city": "Krynki",
+        "addr:housenumber": "26",
+        "addr:postcode": "16-120",
+        "addr:street": "Kościelna",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1377191476,
+      "center": {
+        "lat": 52.5191715,
+        "lon": 23.1320442
+      },
+      "nodes": [
+        12752097073,
+        12752097074,
+        12752097075,
+        12752097076,
+        12752097077,
+        12752097078,
+        12752097079,
+        12752097080,
+        12752097081,
+        12752097082,
+        12752097083,
+        12752097084,
+        12752097073
+      ],
+      "tags": {
+        "addr:city": "Milejczyce",
+        "addr:housenumber": "52",
+        "addr:postcode": "17-332",
+        "addr:street": "3 Maja",
+        "brand": "Arhelan",
+        "brand:wikidata": "Q121945016",
+        "building": "yes",
+        "name": "Arhelan",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-20:00",
+        "payment:blik": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "shop": "supermarket"
+      }
+    }
+  ]
+}
