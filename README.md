@@ -1,10 +1,10 @@
 # DZIK Map
 
-Aplikacja do wyszukiwania najbliższych sklepów z produktami DZIK® w Polsce [attached_image:1].
+Aplikacja do wyszukiwania najbliższych sklepów z produktami DZIK® w Polsce.
 
 ## Opis projektu
 
-DZIK Map to aplikacja webowa, która umożliwia użytkownikom lokalizowanie punktów sprzedaży napojów energetycznych i witaminowych marki DZIK [attached_image:1]. Aplikacja oferuje:
+DZIK Map to aplikacja webowa, która umożliwia użytkownikom lokalizowanie punktów sprzedaży napojów energetycznych i witaminowych marki DZIK. Aplikacja oferuje:
 
 - 🗺️ Interaktywną mapę z lokalizacjami sklepów w całej Polsce
 - 🔍 Wyszukiwanie najbliższych punktów sprzedaży
@@ -44,7 +44,7 @@ Filtruj sklepy według dostępnych kategorii produktów:
 - **Mapa i dane**: Leaflet + OpenStreetMap + Overpass API + Geoapify
 ## Autor
 
-Stworzono przez **budziun • Jakub Budzich** w 2025 roku [attached_image:1].
+Stworzono przez **budziun • Jakub Budzich** w 2025 roku.
 
 ## Linki
 
@@ -52,5 +52,6 @@ Stworzono przez **budziun • Jakub Budzich** w 2025 roku [attached_image:1].
 - [Facebook - Warszawski Koks](https://www.facebook.com/warszawskikoks)
 - [Instagram - @warszawski_koks](https://instagram.com/warszawski_koks)
 - [Sklep WKDZiK](https://sklep.wkdzik.pl)
+
 
 
