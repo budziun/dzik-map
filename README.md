@@ -49,9 +49,11 @@ Stworzono przez **budziun • Jakub Budzich** w 2025 roku.
 ## Linki
 
 - [GitHub](https://github.com/budziun)
-- [Facebook - Warszawski Koks](https://www.facebook.com/warszawskikoks)
-- [Instagram - @warszawski_koks](https://instagram.com/warszawski_koks)
-- [Sklep WKDZiK](https://sklep.wkdzik.pl)
+- [Portfolio](https://budziun.pl)
+- [Facebook - WK DZIK pl](https://www.facebook.com/wkdzikpl)
+- [Instagram - @wkdzik](https://www.instagram.com/wkdzik/)
+- [Sklep WKDZiK](https://wkdzik.pl/)
+
 
 
 
