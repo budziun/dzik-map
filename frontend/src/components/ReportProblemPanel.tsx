@@ -14,7 +14,6 @@ interface ReportFormData {
     title: string;
     description: string;
     user_email: string;
-    screenshot?: File;
 }
 
 const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
@@ -51,11 +50,9 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
 
     const problemTypes = selectedShop ? shopProblemTypes : generalProblemTypes;
 
-    // Pobierz CSRF token przy otwieraniu panelu
     useEffect(() => {
         if (isOpen && !csrfToken) {
             setCsrfLoading(true);
-            // Użyj pełnego adresu URL zgodnie z konfiguracją API
             fetch('http://127.0.0.1:8000/api/csrf-token/', {
                 method: 'GET',
                 credentials: 'include'
@@ -110,16 +107,6 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
         }));
     };
 
-    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const file = e.target.files?.[0];
-        if (file) {
-            setFormData(prev => ({
-                ...prev,
-                screenshot: file
-            }));
-        }
-    };
-
     const validateForm = (): boolean => {
         if (!formData.report_type) return false;
         if (!formData.description.trim()) return false;
@@ -157,7 +144,6 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
                 })
             };
 
-            // Użyj pełnego adresu URL
             const response = await fetch('http://127.0.0.1:8000/api/submit-report/', {
                 method: 'POST',
                 headers: {
@@ -341,24 +327,6 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
                                     Jeśli chcesz dostać odpowiedź na swoje zgłoszenie
                                 </p>
                             </div>
-                            {!selectedShop && (
-                                <div>
-                                    <label htmlFor="screenshot" className="block text-sm font-medium text-gray-700 mb-2">
-                                        Zrzut ekranu (opcjonalnie)
-                                    </label>
-                                    <input
-                                        type="file"
-                                        id="screenshot"
-                                        accept="image/*"
-                                        onChange={handleFileChange}
-                                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                                        disabled={isSubmitting}
-                                    />
-                                    <p className="text-xs text-gray-500 mt-1">
-                                        Załącz screenshot jeśli pomoże wyjaśnić problem
-                                    </p>
-                                </div>
-                            )}
                             {submitError && (
                                 <div className="bg-red-50 p-3 rounded-lg border border-red-200">
                                     <p className="text-red-800 text-sm">{submitError}</p>

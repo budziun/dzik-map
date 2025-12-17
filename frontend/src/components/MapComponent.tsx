@@ -189,7 +189,7 @@ const MapComponent: React.FC<MapComponentProps> = ({
                     fontSize: '16px'
                 }}
             >
-                🐗 DZIK Finder
+                🐗 DZIK Map
             </div>
         </MapContainer>
     );

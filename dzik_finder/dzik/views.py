@@ -755,22 +755,29 @@ def submit_report(request):
 
         # Tworzenie zgłoszenia
         try:
+            # Przygotuj dane
+            shop_lat = data.get('shop_lat')
+            shop_lon = data.get('shop_lon')
+            
+            # Konwertuj na Decimal jeśli są dostępne
+            if shop_lat is not None and shop_lon is not None:
+                from decimal import Decimal
+                shop_lat = Decimal(str(shop_lat))
+                shop_lon = Decimal(str(shop_lon))
+            
             report = UserReport(
                 report_type=data.get('report_type'),
-                title=data.get('title', ''),
-                description=data.get('description', ''),
-                user_email=data.get('user_email', ''),
+                title=data.get('title', '').strip()[:200],
+                description=data.get('description', '').strip(),
+                user_email=data.get('user_email', '').strip(),
                 source=data.get('source', 'general'),
-                ip_address=request.META.get('REMOTE_ADDR')
+                ip_address=request.META.get('REMOTE_ADDR'),
+                shop_lat=shop_lat,
+                shop_lon=shop_lon,
+                shop_name=data.get('shop_name', '').strip()[:200]
             )
 
-            # Jeśli zgłoszenie z mapy - dodaj lokalizację
-            if data.get('source') == 'map':
-                report.shop_lat = data.get('shop_lat')
-                report.shop_lon = data.get('shop_lon')
-                report.shop_name = data.get('shop_name', '')
-
-            report.full_clean()  # Walidacja Django
+            # Zapisz bez full_clean (źródło błędów)
             report.save()
 
             return JsonResponse({
@@ -780,6 +787,9 @@ def submit_report(request):
             })
 
         except Exception as e:
+            import traceback
+            print(f"Błąd zgłoszenia: {str(e)}")
+            print(traceback.format_exc())
             return JsonResponse({
                 'success': False,
                 'error': f'Błąd podczas zapisywania: {str(e)}'

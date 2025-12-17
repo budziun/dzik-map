@@ -511,7 +511,7 @@ const ShopFinder: React.FC = () => {
 
             {!dataLoaded && !loading && (
                 <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', background: 'rgba(0, 0, 0, 0.8)', color: 'white', padding: '24px', borderRadius: '16px', textAlign: 'center', maxWidth: '300px', width: '90%', zIndex: 1000 }}>
-                    <h2 style={{ margin: '0 0 16px 0', fontSize: '20px' }}>🏪 DZIK Finder</h2>
+                    <h2 style={{ margin: '0 0 16px 0', fontSize: '20px' }}>🏪 dzik_map</h2>
                     <p style={{ margin: '0 0 20px 0', lineHeight: '1.4' }}>Włącz lokalizację aby zobaczyć odległości do punktów</p>
                     <button onClick={requestRealLocation} style={{ backgroundColor: '#22c55e', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '8px', margin: '8px', cursor: 'pointer', fontSize: '16px', fontWeight: 'bold', transition: 'background-color 0.2s', width: '100%' }}>📍 Włącz lokalizację</button>
                     <button onClick={() => { const WAW = {lat: 52.2319, lon: 21.0067}; setUserLoc(WAW); setHasRealLocation(false); }} style={{ backgroundColor: '#6b7280', color: 'white', border: 'none', padding: '12px 24px', borderRadius: '8px', margin: '8px', cursor: 'pointer', fontSize: '16px', transition: 'background-color 0.2s', width: '100%' }}>🗺️ Przeglądaj bez lokalizacji</button>

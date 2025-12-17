@@ -27,7 +27,7 @@ const MapUIOverlay: React.FC<MapUIOverlayProps> = () => {
         <>
             {/* Logo w lewym górnym rogu */}
             <div className="absolute top-2.5 left-2.5 z-[1000] bg-black bg-opacity-70 text-white px-3 py-2 rounded-md text-sm font-bold select-none">
-                🐗 DZIK Finder 🛒
+                🐗 DZIK Map 🛒
             </div>
 
             {/* Attribution na samym dole mapy */}

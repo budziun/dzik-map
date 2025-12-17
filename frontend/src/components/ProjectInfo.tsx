@@ -319,7 +319,7 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({
                             {/* Sekcja 0: Tytuł aplikacji i logo */}
                             <div style={getSectionStyle(0)} className="text-center mb-8 py-6 bg-gradient-to-r from-green-50 to-green-100 rounded-xl">
                                 <div className="text-6xl mb-4">🐗</div>
-                                <h1 className="text-3xl font-bold text-gray-800 mb-2">DZIK Finder</h1>
+                                <h1 className="text-3xl font-bold text-gray-800 mb-2">DZIK Map</h1>
                                 <p className="text-lg text-gray-600">Znajdź najbliższe sklepy z produktami DZIK</p>
                             </div>
 
@@ -359,10 +359,10 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({
                             <div style={getSectionStyle(2)} className="mb-8">
                                 <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
                                     <QuestionMarkCircleIcon className="w-6 h-6 mr-2 text-blue-500" />
-                                    Czym jest DZIK Finder?
+                                    Czym jest DZIK Map?
                                 </h3>
                                 <p className="text-gray-600 mb-4">
-                                    DZIK Finder to aplikacja, która pomaga znaleźć najbliższe punkty z produktami DZIK.
+                                    DZIK Map to aplikacja, która pomaga znaleźć najbliższe punkty z produktami DZIK.
                                     Umożliwia przeglądanie sklepów, sprawdzanie dostępności produktów w sieci sklepów oraz nawigowanie
                                     do wybranej lokalizacji.
                                 </p>
@@ -664,7 +664,7 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({
                                 <div className="text-4xl mb-4">🙏</div>
                                 <h3 className="text-xl font-bold text-gray-800 mb-3">Dziękujemy społeczności!</h3>
                                 <p className="text-gray-600 mb-4">
-                                    DZIK Finder to projekt społecznościowy. Dziękujemy wszystkim, którzy pomagają w jego rozwoju
+                                    DZIK Map to projekt społecznościowy. Dziękujemy wszystkim, którzy pomagają w jego rozwoju
                                     poprzez dodawanie sklepów, zgłaszanie błędów i dzielenie się aplikacją.
                                 </p>
                                 <div className="flex flex-wrap justify-center gap-2 mb-4">
