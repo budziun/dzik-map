@@ -6,9 +6,10 @@ from datetime import datetime
 DB_CONFIG = {
     'host': 'localhost',
     'database': 'dzik_db',
-    'user': 'dzik_user',
-    'password': 'django_dzik'
+    'user': '####',
+    'password': '####'
 }
+
 
 
 def import_new_stores():

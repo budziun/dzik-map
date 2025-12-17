@@ -10,8 +10,8 @@ def update_addresses():
     conn = psycopg2.connect(
         host="localhost",
         database="dzik_db",
-        user="dzik_user",
-        password="django_dzik"
+        user="###",
+        password="###"
     )
 
     cursor = conn.cursor()

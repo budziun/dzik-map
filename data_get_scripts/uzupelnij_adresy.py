@@ -77,7 +77,7 @@ def main():
     print(f"Wczytano {len(df)} rekordów (ograniczono do {MAX_RECORDS})")
 
     # Klucz API Geoapify
-    GEOAPIFY_KEY = "6e09231231f44fa0956d2dcf0aab2404"
+    GEOAPIFY_KEY = "###"
 
     output_file = 'sklepy_z_adresami_live.csv'
 

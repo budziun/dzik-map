@@ -23,8 +23,8 @@ def parse_args():
                    help="Plik CSV ze sklepami Stokrotka")
     p.add_argument("--host",     default="localhost")
     p.add_argument("--db",       default="dzik_db")
-    p.add_argument("--user",     default="dzik_user")
-    p.add_argument("--password", default="django_dzik")
+    p.add_argument("--user",     default="###")
+    p.add_argument("--password", default="###")
     p.add_argument("--chain",    default="stokrotka",
                    help="Wartość kolumny 'chain' usuwanej i wstawianej sieci")
     return p.parse_args()

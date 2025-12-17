@@ -1,4 +1,4 @@
-# export_zabka_shops.py
+# export_empty_addresses.py
 import psycopg2
 import csv
 
@@ -6,39 +6,38 @@ import csv
 DB_CONFIG = {
     'host': 'localhost',
     'database': 'dzik_db',
-    'user': 'dzik_user',
-    'password': 'django_dzik'
+    'user': '####',
+    'password': '####'
 }
 
 
-def export_zabka_shops():
+def export_shops_without_address():
     try:
         # Połączenie z bazą
         conn = psycopg2.connect(**DB_CONFIG)
         cursor = conn.cursor()
 
-        # Zapytanie o wszystkie sklepy Żabka (różne warianty pisowni)
+        # Zapytanie o sklepy bez adresu
         query = """
         SELECT id, osm_id, name, chain, latitude, longitude, address
         FROM dzik_osmshop 
-        WHERE LOWER(name) LIKE '%żabka%' 
-           OR LOWER(name) LIKE '%zabka%'
-           OR LOWER(chain) LIKE '%żabka%'
-           OR LOWER(chain) LIKE '%zabka%'
+        WHERE address IS NULL 
+           OR address = '' 
+           OR address = 'Brak adresu'
         ORDER BY id
         """
 
         cursor.execute(query)
         rows = cursor.fetchall()
 
-        print(f"Znaleziono {len(rows)} sklepów Żabka")
+        print(f"Znaleziono {len(rows)} sklepów bez adresu")
 
         if len(rows) == 0:
             print("Brak rekordów do eksportu!")
             return
 
         # Eksport do CSV
-        with open('sklepy_zabka.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        with open('sklepy_bez_adresu.csv', 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
 
             # Nagłówki
@@ -48,7 +47,7 @@ def export_zabka_shops():
             for row in rows:
                 writer.writerow(row)
 
-        print(f"Eksport zakończony: sklepy_zabka.csv")
+        print(f"Eksport zakończony: sklepy_bez_adresu.csv")
         print(f"Wyeksportowano {len(rows)} rekordów")
 
         cursor.close()
@@ -59,4 +58,4 @@ def export_zabka_shops():
 
 
 if __name__ == "__main__":
-    export_zabka_shops()
+    export_shops_without_address()

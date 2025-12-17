@@ -1,7 +1,6 @@
 import pandas as pd
 import re
 
-# Możesz ustawić listę obsługiwanych sieci/sklepów
 STORE_NAMES = ['Lidl', 'Biedronka', 'Carrefour', 'Intermarché', 'Intermarche','Aldi','Żabka','Zabka','Kaufland','Dealz','Dino','Stokrotka','Topaz','Twój market','Auchan','BP','Circle K','Eurocash','Bitcoin','Arhelan']
 
 def clean_address(addr):
