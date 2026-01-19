@@ -1,7 +1,7 @@
 # DZIK Map
 A web application for finding the nearest stores that sell DZIK® energy and vitamin drinks in Poland.
 
-[![DZIK Map Demo](https://img.shields.io/badge/DZIK%20Map-Demo-brightgreen)](https://demo.dzikmapa.pl)
+[![DZIK Map Demo](https://img.shields.io/badge/DZIK%20Map-Demo-brightgreen)](https://dzikmapa.pl)
 
 > 🇵🇱 README w języku polskim znajduje się poniżej.
 
@@ -118,4 +118,5 @@ Stworzono przez **budziun • Jakub Budzich** w 2025 roku.
 - [Facebook - WK DZIK pl](https://www.facebook.com/wkdzikpl)  
 - [Instagram - @wkdzik](https://www.instagram.com/wkdzik/)  
 - [Sklep WKDZiK](https://wkdzik.pl/)
+
 
