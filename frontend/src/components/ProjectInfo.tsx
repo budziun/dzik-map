@@ -36,7 +36,7 @@ const ProjectInfo: React.FC<ProjectInfoProps> = ({
     const fetchStats = async () => {
         try {
             setIsLoadingStats(true);
-            const response = await fetch('/api/stats/');
+            const response = await fetch('https://api.dzikmapa.pl/api/stats/');
             if (!response.ok) {
                 throw new Error('Failed to fetch stats');
             }

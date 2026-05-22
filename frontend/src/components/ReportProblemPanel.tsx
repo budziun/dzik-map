@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { XMarkIcon, ExclamationTriangleIcon, MapPinIcon } from "@heroicons/react/24/outline";
 import { Shop } from '../services/api';
+import { Turnstile } from '@marsidev/react-turnstile';
 
 interface ReportProblemPanelProps {
     isOpen: boolean;
@@ -33,6 +34,7 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
     const [submitError, setSubmitError] = useState<string | null>(null);
     const [csrfToken, setCsrfToken] = useState<string | null>(null);
     const [csrfLoading, setCsrfLoading] = useState(true);
+    const [turnstileToken, setTurnstileToken] = useState<string>('');
 
     const shopProblemTypes = [
         { value: 'shop_not_exists', label: 'Sklep nie istnieje/zamknięty' },
@@ -53,7 +55,7 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
     useEffect(() => {
         if (isOpen && !csrfToken) {
             setCsrfLoading(true);
-            fetch('http://127.0.0.1:8000/api/csrf-token/', {
+            fetch('https://api.dzikmapa.pl/api/csrf-token/', {
                 method: 'GET',
                 credentials: 'include'
             })
@@ -85,6 +87,7 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
             });
             setSubmitSuccess(false);
             setSubmitError(null);
+            setTurnstileToken('');
         }
     }, [isOpen, selectedShop]);
 
@@ -127,6 +130,11 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
             return;
         }
 
+        if (!turnstileToken) {
+            setSubmitError('Proszę ukończyć weryfikację bezpieczeństwa');
+            return;
+        }
+
         setIsSubmitting(true);
         setSubmitError(null);
 
@@ -137,6 +145,7 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
                 description: formData.description,
                 user_email: formData.user_email,
                 source: selectedShop ? 'map' : 'general',
+                turnstileToken: turnstileToken,
                 ...(selectedShop && {
                     shop_name: selectedShop.name,
                     shop_lat: selectedShop.lat,
@@ -144,7 +153,7 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
                 })
             };
 
-            const response = await fetch('http://127.0.0.1:8000/api/submit-report/', {
+            const response = await fetch('https://api.dzikmapa.pl/api/submit-report/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -156,7 +165,7 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
 
             if (!response.ok) {
                 const errorData = await response.json().catch(() => ({}));
-                throw new Error(errorData.message || `HTTP error! status: ${response.status}`);
+                throw new Error(errorData.error || `HTTP error! status: ${response.status}`);
             }
 
             const result = await response.json();
@@ -327,6 +336,19 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
                                     Jeśli chcesz dostać odpowiedź na swoje zgłoszenie
                                 </p>
                             </div>
+
+                            <div className="mb-4 flex items-center justify-center">
+                                <Turnstile
+                                    siteKey="0x4AAAAAACNNCDZF4AO1epJL"
+                                    onSuccess={(token) => setTurnstileToken(token)}
+                                    onError={() => {
+                                        setSubmitError('Błąd weryfikacji bezpieczeństwa. Odśwież stronę.');
+                                        setTurnstileToken('');
+                                    }}
+                                    onExpire={() => setTurnstileToken('')}
+                                />
+                            </div>
+
                             {submitError && (
                                 <div className="bg-red-50 p-3 rounded-lg border border-red-200">
                                     <p className="text-red-800 text-sm">{submitError}</p>
@@ -334,9 +356,9 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
                             )}
                             <button
                                 type="submit"
-                                disabled={isSubmitting || !validateForm() || !csrfToken || csrfLoading}
+                                disabled={isSubmitting || !validateForm() || !csrfToken || csrfLoading || !turnstileToken}
                                 className={`w-full py-3 px-4 rounded-lg font-medium transition-all ${
-                                    isSubmitting || !validateForm() || !csrfToken || csrfLoading
+                                    isSubmitting || !validateForm() || !csrfToken || csrfLoading || !turnstileToken
                                         ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                                         : 'bg-red-500 text-white hover:bg-red-600 active:bg-red-700'
                                 }`}
@@ -350,6 +372,8 @@ const ReportProblemPanel: React.FC<ReportProblemPanelProps> = ({
                                     'Pobieranie tokenu bezpieczeństwa...'
                                 ) : !csrfToken ? (
                                     'Brak tokenu bezpieczeństwa'
+                                ) : !turnstileToken ? (
+                                    'Proszę ukończyć weryfikację powyżej'
                                 ) : (
                                     'Wyślij zgłoszenie'
                                 )}

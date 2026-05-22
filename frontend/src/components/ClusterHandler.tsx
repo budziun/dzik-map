@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo, useRef } from 'react';
-import { Marker, useMap } from 'react-leaflet'; // Usunąłem Popup z importów
+import { Marker, useMap } from 'react-leaflet';
 import { LatLngBounds } from 'leaflet';
 import { debounce } from 'lodash';
 import { Shop, calculateDynamicRadius } from '../services/api';
@@ -26,6 +26,7 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
     const map = useMap();
     const [currentZoom, setCurrentZoom] = useState(map.getZoom());
     const [mapBounds, setMapBounds] = useState(map.getBounds());
+    const [isZooming, setIsZooming] = useState(false); // ← tu, wewnątrz komponentu
     const { getClustersForBounds, expandCluster } = useMapClustering(shops, currentZoom);
 
     const loadingRef = useRef(loading);
@@ -33,30 +34,40 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
 
     const [forceUpdate, setForceUpdate] = useState(0);
 
+    // Nasłuchuj zoomu bezpośrednio na instancji mapy
+    useEffect(() => {
+        const onZoomStart = () => setIsZooming(true);
+        const onZoomEnd = () => {
+            // Daj chwilę na ustabilizowanie się mapy po zoom
+            setTimeout(() => setIsZooming(false), 500);
+        };
+        map.on('zoomstart', onZoomStart);
+        map.on('zoomend', onZoomEnd);
+        return () => {
+            map.off('zoomstart', onZoomStart);
+            map.off('zoomend', onZoomEnd);
+        };
+    }, [map]);
+
     useEffect(() => {
         if (shops.length > 0) {
             const currentBounds = map.getBounds();
             const zoom = map.getZoom();
             setMapBounds(currentBounds);
             setCurrentZoom(zoom);
-
-            setTimeout(() => {
-                setForceUpdate(prev => prev + 1);
-            }, 100);
+            setTimeout(() => setForceUpdate(prev => prev + 1), 100);
         }
     }, [shops.length, map]);
 
     const debouncedUpdate = useMemo(
-        () => debounce((bounds: LatLngBounds, zoom: number) => {
-            if (loadingRef.current) {
-                return;
-            }
-
-            const center = map.getCenter();
-            const currentRadius = calculateDynamicRadius(zoom);
-            onRadiusChange(currentRadius);
-            onMapMove(center.lat, center.lng, zoom);
-        }, 500),
+        () =>
+            debounce((bounds: LatLngBounds, zoom: number) => {
+                if (loadingRef.current) return;
+                const center = map.getCenter();
+                const currentRadius = calculateDynamicRadius(zoom);
+                onRadiusChange(currentRadius);
+                onMapMove(center.lat, center.lng, zoom);
+            }, 500),
         [map, onMapMove, onRadiusChange]
     );
 
@@ -71,7 +82,8 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
             setMapBounds(bounds);
             setCurrentZoom(zoom);
 
-            const centerChanged = Math.abs(center.lat - lastCenter.lat) > 0.001 ||
+            const centerChanged =
+                Math.abs(center.lat - lastCenter.lat) > 0.001 ||
                 Math.abs(center.lng - lastCenter.lng) > 0.001;
             const zoomChanged = zoom !== lastZoom;
 
@@ -93,16 +105,13 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
     }, [map, debouncedUpdate]);
 
     const clusters = useMemo(() => {
-        if (!mapBounds || shops.length === 0) {
-            return [];
-        }
-
-        const result = getClustersForBounds(mapBounds, currentZoom);
-        return result;
-    }, [getClustersForBounds, mapBounds, currentZoom, shops, forceUpdate]); //eslint-disable-line
+        if (!mapBounds || shops.length === 0) return [];
+        return getClustersForBounds(mapBounds, currentZoom);
+    }, [getClustersForBounds, mapBounds, currentZoom, shops, forceUpdate]); // eslint-disable-line
 
     return (
-        <>
+        // opacity zamiast return null — punkty są w DOM, tylko niewidoczne podczas zoomu
+        <div style={{ opacity: isZooming ? 0 : 1, transition: 'opacity 0.15s ease' }}>
             {clusters.map((cluster, index) => {
                 const [longitude, latitude] = cluster.geometry.coordinates;
                 const { cluster: isCluster, point_count, shop } = cluster.properties;
@@ -110,7 +119,7 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
                 if (isCluster) {
                     return (
                         <Marker
-                            key={`cluster-${index}`}
+                            key={`cluster-${cluster.id}-${index}`}
                             position={[latitude, longitude]}
                             icon={createClusterIcon(point_count)}
                             eventHandlers={{
@@ -118,7 +127,6 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
                                     const clusterId = cluster.id;
                                     const currentZoom = map.getZoom();
                                     let expansionZoom = currentZoom + 2;
-
                                     if (clusterId !== undefined && typeof clusterId === 'number') {
                                         try {
                                             const suggestedZoom = expandCluster(clusterId);
@@ -128,7 +136,6 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
                                             expansionZoom = Math.min(currentZoom + 2, 17);
                                         }
                                     }
-
                                     map.setView([latitude, longitude], expansionZoom);
                                 }
                             }}
@@ -136,23 +143,19 @@ const ClusterHandler: React.FC<ClusterHandlerProps> = ({
                     );
                 } else {
                     const shopData = shop as Shop;
-
                     return (
                         <Marker
-                            key={`shop-${index}`}
+                            key={`shop-${shopData.id ?? index}`}
                             position={[latitude, longitude]}
                             icon={createShopIcon(shopData.chain, shopData.logo_url, shopData.name)}
                             eventHandlers={{
-                                click: () => {
-                                    onShopSelect(shopData);
-                                }
+                                click: () => onShopSelect(shopData)
                             }}
-                        >
-                        </Marker>
+                        />
                     );
                 }
             })}
-        </>
+        </div>
     );
 };
 

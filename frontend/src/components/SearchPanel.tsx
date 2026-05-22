@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { XMarkIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { getMediaUrl } from '../config';
 
 // Definicja typu dla produktu zwracanego przez API
 interface SearchedProduct {
@@ -88,7 +89,8 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
         setIsLoading(true);
         setError(null);
         try {
-            const productResponse = await fetch(`/api/search-products/?q=${encodeURIComponent(query)}`);
+            // ZMIANA: Dodano pełny adres URL dla wyszukiwania produktów
+            const productResponse = await fetch(`https://api.dzikmapa.pl/api/search-products/?q=${encodeURIComponent(query)}`);
             if (productResponse.ok) {
                 const productData = await productResponse.json();
                 setSuggestions(productData.products || []);
@@ -127,7 +129,8 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
             setIsLoading(true);
             setError(null);
             try {
-                const cityResponse = await fetch(`/api/geocode/?city=${encodeURIComponent(query)}`);
+                // ZMIANA: Dodano pełny adres URL dla geokodowania miasta
+                const cityResponse = await fetch(`https://api.dzikmapa.pl/api/geocode/?city=${encodeURIComponent(query)}`);
                 if (cityResponse.ok) {
                     const cityData = await cityResponse.json();
                     if (cityData.lat && cityData.lon) {
@@ -206,10 +209,9 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
                                 className="w-full text-left px-4 py-3 hover:bg-blue-50 transition-colors duration-200 flex items-center space-x-3"
                                 onClick={() => handleProductSelect(product)}
                             >
-                                {/* NOWOŚĆ: Kontener na obrazek */}
                                 <div className="flex-shrink-0">
                                     <img
-                                        src={product.photo_url}
+                                        src={getMediaUrl(product.photo_url)}
                                         alt={`${product.full_name} logo`}
                                         className="w-12 h-12 p-1"
                                         onError={(e) => (e.currentTarget.style.display = 'none')}

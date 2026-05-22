@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
+import { getMediaUrl } from '../config';
 
 // Interfejsy przeniesione z ShopFinder
 interface ShopFilter {
@@ -31,7 +32,7 @@ interface AdvancedFilterPanelProps {
     shopFilters: ShopFilter[];
     productFilters: ProductFilter[];
     userLocation?: { lat: number; lon: number } | null;
-    isClosing?: boolean; // Nowy prop do sygnalizowania zamykania
+    isClosing?: boolean;
 }
 
 const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
@@ -46,7 +47,7 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                                                                      shopFilters,
                                                                      productFilters,
                                                                      userLocation,
-                                                                     isClosing = false // Domyślna wartość
+                                                                     isClosing = false
                                                                  }) => {
     const [activeTab, setActiveTab] = useState<'shops' | 'products'>('products');
     const [isVisible, setIsVisible] = useState(false);
@@ -60,7 +61,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
             setIsVisible(true);
             setIsAnimating(true);
             document.body.style.overflow = 'hidden';
-            // Zakończ animację po zamontowaniu komponentu
             setTimeout(() => setIsAnimating(false), 300);
         }
         return () => {
@@ -68,7 +68,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
         };
     }, [isOpen]);
 
-    // Dodatkowy useEffect do obsługi zamykania z zewnątrz
     useEffect(() => {
         if (isClosing && isVisible) {
             setIsAnimating(true);
@@ -97,7 +96,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
         }
     };
 
-    // Obsługa przeciągania karty
     const handleCardTouchStart = (e: React.TouchEvent) => {
         setStartY(e.touches[0].clientY);
         setCurrentY(0);
@@ -164,6 +162,7 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
         { id: 'vitamine_boost', name: 'Vitamin Boost', icon: '💊' },
         { id: 'vitamine_drink', name: 'Vitamin Drink', icon: '🧃' },
         { id: 'zero_caffeine_drink', name: 'Zero Caffeine', icon: '🚫🔋' },
+        { id: 'wafle', name: 'Wafle', icon: '🍫' },
     ];
 
     const handleShopToggle = (shopId: string) => {
@@ -204,7 +203,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
 
     return (
         <>
-            {/* Backdrop */}
             <div
                 className="fixed inset-0 bg-black bg-opacity-50 z-40"
                 style={{
@@ -213,7 +211,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                 }}
                 onClick={handleBackdropClick}
             />
-            {/* Card Container */}
             <div
                 className="fixed left-1/2 transform -translate-x-1/2 z-50 w-full max-w-2xl"
                 style={{
@@ -223,7 +220,7 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                 }}
             >
                 <div
-                    className="bg-white rounded-t-3xl shadow-2xl overflow-hidden"
+                    className="bg-white rounded-t-[32px] shadow-2xl overflow-hidden"
                     style={{
                         cursor: isDragging ? 'grabbing' : 'grab',
                         maxHeight: '85vh',
@@ -233,22 +230,20 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                     onTouchMove={handleCardTouchMove}
                     onTouchEnd={handleCardTouchEnd}
                 >
-                    {/* Handle Bar */}
                     <div className="flex justify-center pt-4 pb-2">
                         <div className="w-12 h-1.5 bg-gray-300 rounded-full" />
                     </div>
-                    {/* Header */}
-                    <div className="px-6 py-4 border-b border-gray-200">
-                        <div className="flex justify-between items-center">
-                            <h2 className="text-2xl font-bold text-gray-800">Filtry wyszukiwania punktów</h2>
-                            <button
-                                onClick={handleClose}
-                                className="w-10 h-10 rounded-full bg-red-500 text-white flex items-center justify-center shadow-md hover:bg-red-600 transition-colors"
-                            >
-                                <XMarkIcon className="w-6 h-6" />
-                            </button>
-                        </div>
-                        {/* Tabs z przyciskiem Wyczyść */}
+
+                    {/* Header ujednolicony */}
+                    <div className="px-6 py-4 border-b border-gray-100 relative">
+                        <h2 className="text-2xl font-bold text-gray-800 pr-12">Filtry wyszukiwania</h2>
+                        <button
+                            onClick={handleClose}
+                            className="absolute top-4 right-6 w-10 h-10 rounded-full bg-red-500 text-white flex items-center justify-center shadow-lg hover:bg-red-600 transition-colors z-10"
+                        >
+                            <XMarkIcon className="w-6 h-6" />
+                        </button>
+
                         <div className="flex items-center justify-between mt-4">
                             <div className="flex border-b border-gray-200">
                                 <button
@@ -271,11 +266,11 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                     <path fillRule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clipRule="evenodd" />
                                 </svg>
-                                Wyczyść Filtry
+                                Wyczyść
                             </button>
                         </div>
                     </div>
-                    {/* Content */}
+
                     <div
                         className="overflow-y-auto scrollbar-hidden "
                         style={{ maxHeight: 'calc(85vh - 170px)' }}
@@ -300,7 +295,7 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                                             <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center ">
                                                 {shop.logo_url ? (
                                                     <img
-                                                        src={shop.logo_url}
+                                                        src={getMediaUrl(shop.logo_url)}
                                                         alt={`${shop.name} logo`}
                                                         className="w-16 h-16 md:w-20 md:h-20 object-contain"
                                                     />
@@ -326,7 +321,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                             </div>
                         ) : (
                             <div className="p-4  mb-20">
-                                {/* Kategorie produktów */}
                                 <h3 className="font-medium text-gray-700 mb-3">Kategorie produktów</h3>
                                 <div className="flex flex-wrap gap-2 mb-6">
                                     {productCategories.map((category) => (
@@ -351,7 +345,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                                         </button>
                                     ))}
                                 </div>
-                                {/* Produkty */}
                                 <h3 className="font-medium text-gray-700 mb-3">Wybierz produkty</h3>
                                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                                     {filteredProducts.map((product) => (
@@ -370,7 +363,7 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                                             <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center ">
                                                 {product.photo_url ? (
                                                     <img
-                                                        src={product.photo_url}
+                                                        src={getMediaUrl(product.photo_url)}
                                                         alt={`${product.name}`}
                                                         className="w-16 h-16 md:w-20 md:h-20 object-contain"
                                                     />
@@ -396,7 +389,6 @@ const AdvancedFilterPanel: React.FC<AdvancedFilterPanelProps> = ({
                     </div>
                 </div>
             </div>
-            {/* Style dla ukrywania scrollbar */}
             <style>{`
         .scrollbar-hidden {
           -ms-overflow-style: none;
